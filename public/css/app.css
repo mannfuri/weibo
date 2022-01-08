@@ -10027,6 +10027,13 @@ nav.navbar.navbar-expand-lg {
   margin-bottom: 20px;
 }
 
+.alert {
+  margin-bottom: 0;
+}
+.alert ul {
+  margin-bottom: 0;
+}
+
 /* footer */
 footer {
   margin-top: 45px;
