@@ -15,7 +15,7 @@ class UsersController extends Controller
         $this->middleware('auth', [
             //所有动作都要登录
             //除了以下三个动作
-            'except' => ['show', 'create', 'store']
+            'except' => ['show', 'create', 'store','index']
         ]);
 
 
@@ -83,5 +83,13 @@ class UsersController extends Controller
     {
         $users = User::paginate(6);
         return view('users.index',compact('users'));
+    }
+
+    public function destroy(User $user)
+    {
+        $this->authorize('destroy', $user);
+        $user->delete();
+        session()->flash('success', '成功删除用户名为 ' . $user->name . ' 的用户');
+        return back();
     }
 }
