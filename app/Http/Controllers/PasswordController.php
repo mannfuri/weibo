@@ -17,7 +17,7 @@ class PasswordController extends Controller
     public function __construct()
     {
         //只允许十分钟三次，超出限流
-        $this->middleware('throttle3,10', [
+        $this->middleware('throttle:3,10', [
             'only' => ['showLinkRequestForm']
         ]);
     }
