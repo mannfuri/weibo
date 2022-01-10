@@ -1,0 +1,173 @@
+[33mcommit 46ca2df4a03e8549aa61e78b5471c94f7867f8da[m[33m ([m[1;36mHEAD -> [m[1;32muser-statuses[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 22:24:03 2022 +0900
+
+    首页微博列表
+
+[33mcommit 679bcb38ea193df44c878f6c3848d4df31554acb[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 21:43:19 2022 +0900
+
+    发布微博
+
+[33mcommit fb77529161322c68a0ac366e34baa95b1b113049[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 20:28:56 2022 +0900
+
+    用户微博列表
+
+[33mcommit 7f6b3a88e5d414a346a43a9972b0e32e555e89d6[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 18:55:03 2022 +0900
+
+    微博数据模型
+
+[33mcommit 994b0deb373fd02c2523b214b055c6a7e867126c[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 18:14:08 2022 +0900
+
+    flashmessage的css修改 + 限流中间件语法修复
+
+[33mcommit 38a1ede4b22c53403d2bdc26bf69cbf8b1332d09[m[33m ([m[1;32maccount-activation-password-resets[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 17:52:52 2022 +0900
+
+    移除邮件发送的 from 选项
+
+[33mcommit fe91ec18c240bf67f64cc4cfea3ef6ae44db701d[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 17:45:54 2022 +0900
+
+    访问限流
+
+[33mcommit ce4177030b3aae94a4abc3ab5473c5ec0926d561[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 02:49:04 2022 +0900
+
+    重置密码
+
+[33mcommit ae70c7cf09b0187699281b4d556313612b3b0d34[m
+Author: mann <mannfuri@gmail.com>
+Date:   Mon Jan 10 00:21:31 2022 +0900
+
+    发送找回密码链接
+
+[33mcommit cd236777a7c30c48a68b3531616401607dcc8e0c[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 22:39:53 2022 +0900
+
+    用户激活
+
+[33mcommit 77f6485a67d37c5c45a02d9bf4225ca3f179345a[m[33m ([m[1;32muser-crud[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 16:41:58 2022 +0900
+
+    管理员可删除用户
+
+[33mcommit 810b6f5a8a5d6f8c023572f264f61418f9aea41a[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 14:35:16 2022 +0900
+
+    查看用户列表
+
+[33mcommit 82bf82ac3bace751cbf6ba1dfaee841ffe63f225[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 12:27:36 2022 +0900
+
+    访问策略
+
+[33mcommit bcbe5b2f7b125b24991b33de0392fb7fc1923920[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 03:38:23 2022 +0900
+
+    更改用户资料
+
+[33mcommit 3fb821b84ef780427310880ca6764cc47dda439a[m[33m ([m[1;32mlogin-logout[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 02:26:35 2022 +0900
+
+    登录时记住我
+
+[33mcommit 129be7280f56d9e5e139e3b1a79785a28cdf1dae[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 00:58:04 2022 +0900
+
+    登录成功后导航逻辑
+
+[33mcommit bb0b74df3f09a5ebced780cb7e4184d109e6e2dc[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sun Jan 9 00:24:10 2022 +0900
+
+    创建会话
+
+[33mcommit 4e55f8f5cd450a1af79b0baafb9e517e36e85b09[m[33m ([m[1;32msign-up[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 21:24:21 2022 +0900
+
+    完成用户注册功能
+
+[33mcommit 07fb058f3c13ea2fe2874c6947ce4977de5749cf[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 21:00:00 2022 +0900
+
+    中文的错误提示信息
+
+[33mcommit ec82973a6d66533fd86f09678e6f94a9c08cd82b[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 20:32:13 2022 +0900
+
+    增加 CSRF 验证
+
+[33mcommit 48d91c31f035d4af30245d209fdeb989992a4a4b[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 20:26:12 2022 +0900
+
+    用户注册表单
+
+[33mcommit a8a64243fdef6c242e8d342fec6c55ac9e69c67b[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 20:22:40 2022 +0900
+
+    用户显示页面
+
+[33mcommit f72c72a188e9cb7b6a140eb59714dc6b7dcdb6aa[m[33m ([m[1;32mfilling-layout-style[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 15:43:32 2022 +0900
+
+    用户注册页面
+
+[33mcommit 36930551bdb73e7d7a909bc2f8110c801d4b45db[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 14:36:02 2022 +0900
+
+    命名路由
+
+[33mcommit c10cad939f96aae763163ebe8f48c3695247c669[m
+Author: mann <mannfuri@gmail.com>
+Date:   Sat Jan 8 00:05:21 2022 +0900
+
+    切割头部尾部子视图
+
+[33mcommit c933617b3199e1ad78aff094056ffcb58045fb2b[m
+Author: mann <mannfuri@gmail.com>
+Date:   Fri Jan 7 23:58:35 2022 +0900
+
+    CSS文件浏览器缓存文件
+
+[33mcommit 239d961caaf3ac1abdae8dac742abc716b4c21ec[m
+Author: mann <mannfuri@gmail.com>
+Date:   Fri Jan 7 23:52:31 2022 +0900
+
+    初始化样式
+
+[33mcommit 4cc9e71f0ddd4f30a12c0a6839cabf3c66c01d3d[m[33m ([m[1;32mstatic-pages[m[33m)[m
+Author: mann <mannfuri@gmail.com>
+Date:   Fri Jan 7 22:55:44 2022 +0900
+
+    基础页面
+
+[33mcommit aa745b25d27b049046eb2c5d2ccc69f04ef5359b[m
+Author: mann <mannfuri@gmail.com>
+Date:   Fri Jan 7 19:07:47 2022 +0900
+
+    Initial commit

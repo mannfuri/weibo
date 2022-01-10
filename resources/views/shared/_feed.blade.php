@@ -3,7 +3,9 @@
         @foreach ($feed_items as $status)
             @include('statuses._status',  ['user' => $status->user])
         @endforeach
+
     </ul>
+
     <div class="mt-5">
         {!! $feed_items->render() !!}
     </div>

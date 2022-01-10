@@ -9,8 +9,10 @@ class StaticPagesController extends Controller
 {
     public function home()
     {
+
         $feed_items = [];
-        if (Auth::check()) {
+        //如果处于登陆状态
+        if(Auth::check()){
             $feed_items = Auth::user()->feed()->paginate(30);
         }
 
