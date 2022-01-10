@@ -13,6 +13,9 @@
                 </section>
             </aside>
 
+            <section class="status">
+                    @include('shared._feed',compact('feed_items'))
+            </section>
 
         </div>
     @else
