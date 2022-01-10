@@ -84,7 +84,7 @@ class User extends Authenticatable
     public function follow($user_ids)
     {
         if (!is_array($user_ids)) {
-            $user_ids = compact(user_ids);
+            $user_ids = compact('user_ids');
         }
         //sync方法需要接受一个数组,所有需要上面这个操作把collection转成数组
         $this->followings()->sync($user_ids, false);
@@ -100,7 +100,7 @@ class User extends Authenticatable
 
     public function isfollowing($user_id)
     {
-        return $this->followings()->contains($user_id)
+        return $this->followings()->contains($user_id);
     }
 
 }
