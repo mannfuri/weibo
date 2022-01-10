@@ -13,6 +13,7 @@ class StaticPagesController extends Controller
         $feed_items = [];
         //如果处于登陆状态
         if(Auth::check()){
+
             $feed_items = Auth::user()->feed()->paginate(30);
         }
 
