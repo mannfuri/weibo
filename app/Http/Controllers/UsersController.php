@@ -23,6 +23,12 @@ class UsersController extends Controller
             //以下方法，只有访客可以访问，登录用户不可访问
             'only' => ['create','store']
         ]);
+
+
+        // 限流 一个小时内只能提交 10 次请求；
+        $this->middleware('throttle:10,60', [
+            'only' => ['store']
+        ]);
     }
 
     public function create()

@@ -13,6 +13,15 @@ use Illuminate\Support\Str;
 
 class PasswordController extends Controller
 {
+
+    public function __construct()
+    {
+        //只允许十分钟三次，超出限流
+        $this->middleware('throttle3,10', [
+            'only' => ['showLinkRequestForm']
+        ]);
+    }
+
     public function showLinkRequestForm()
         //填写表单页面
     {
@@ -68,7 +77,7 @@ class PasswordController extends Controller
         $email = $request->email;
         $token = $request->token;
 
-        $expires = 6000*10;
+        $expires = 60*10;
 
         $user = User::where('email',$email)->first();
 
@@ -91,8 +100,8 @@ class PasswordController extends Controller
 
             $user ->update(['password'=> bcrypt($request->password)]);
             session()->flash('success', '密码重置成功，已帮您自动登录');
-            
-            Auth::attempt(['email'=>$request->email,'password'=>$request->password]);
+
+            Auth::login($user);
             return redirect()->route('users.show', Auth::user());
         }
 
