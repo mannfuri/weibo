@@ -37,3 +37,6 @@ Route::post('password/email',  'PasswordController@sendResetLinkEmail')->name('p
 Route::get('password/reset/{token}',  'PasswordController@showResetForm')->name('password.reset');
 //对提交的token和email进行验证,验证成功更新密码
 Route::post('password/reset',  'PasswordController@reset')->name('password.update');
+
+
+Route::resource('statuses', 'StatusesController', ['only' => ['store', 'destroy']]);
