@@ -6,6 +6,9 @@
                 <section class="status_form">
                     @include('shared._status_form')
                 </section>
+                <h4>微博列表</h4>
+                <hr>
+                @include('shared._feed')
             </div>
             <aside class="col-md-4">
                 <section class="user_info">
@@ -13,9 +16,7 @@
                 </section>
             </aside>
 
-            <section class="status">
-                    @include('shared._feed',compact('feed_items'))
-            </section>
+
 
         </div>
     @else
