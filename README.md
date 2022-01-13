@@ -1,7 +1,7 @@
-Weibo APP
+SNS APP
 
-<br><br>
-整个网站功能包括：
+<br>
+整个网站功能包括：<br><br>
 <br>
 用户的注册登录<br>
 用户个人信息的更改<br>
